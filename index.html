@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Kalaivanan S is a B.Tech Information Technology student building responsive web experiences with HTML, CSS, JavaScript, and modern UI practices."
+    />
+    <title>Kalaivanan S | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="D:\kalai\Potfolio\Kalai_Portfolio_HTML\styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="project-lightbox" id="projectLightbox" aria-hidden="true">
+        <button class="project-lightbox-close" id="projectLightboxClose" aria-label="Close preview">×</button>
+        <img class="project-lightbox-image" id="projectLightboxImage" src="" alt="Project preview" />
+      </div>
+
+      <header class="site-header">
+        <nav class="container nav-bar">
+          <a class="brand" href="#home">
+            <span class="brand-badge">✦</span>
+            <span class="gradient-text">Portfolio</span>
+          </a>
+
+          <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">
+            <span></span><span></span><span></span>
+          </button>
+
+          <ul class="nav-links" id="navLinks">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+
+          <div class="nav-actions">
+            <button class="icon-button" id="themeToggle" aria-label="Toggle dark mode">🌙</button>
+            <a class="button button-primary" href="#contact">Hire Me</a>
+          </div>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero section hero-bg" id="home">
+          <div class="container hero-grid hero-grid-single">
+            <div class="hero-content reveal">
+              <p class="eyebrow">B.Tech Information Technology Student</p>
+              <h1>
+                Hi, I’m <span class="gradient-text">Kalaivanan S</span>
+                <br />
+                <span id="typedText" class="typed-text"></span>
+              </h1>
+              <p class="lead">
+                Motivated and curious, I build responsive and user-friendly web interfaces with clean, efficient code.
+              </p>
+              <div class="button-row">
+                <a class="button button-primary" href="resume/Kalaivanan__Resume_.docx" download>Download Resume</a>
+                <a class="button button-secondary" href="#contact">Contact Me</a>
+              </div>
+              <div class="social-links">
+                <a href="https://github.com/kalai-2005" target="_blank" rel="noreferrer">GitHub</a>
+                <a href="https://www.linkedin.com/in/kalai-vanan-b1215a403" target="_blank" rel="noreferrer">LinkedIn</a>
+                <a href="mailto:kalaibigil005@gmail.com">Email</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="about">
+          <div class="container">
+            <div class="section-heading reveal">
+              <span class="eyebrow">About Me</span>
+              <h2>Building the web with curiosity and care</h2>
+              <p>Focused on front-end development, design thinking, and continuous growth.</p>
+            </div>
+
+            <div class="about-grid">
+              <div class="reveal">
+                <p>
+                  I’m a <strong>B.Tech Information Technology</strong> student at Nandha Engineering College, Erode, focused on front-end web development and emerging technologies.
+                </p>
+                <p>
+                  I completed a front-end internship at Cyfotok Pvt. Ltd., where I built responsive UI components using HTML5, CSS3, and JavaScript.
+                </p>
+                <ul class="check-list">
+                  <li>Responsive web pages</li>
+                  <li>Problem-solving mindset</li>
+                  <li>Quick learner</li>
+                  <li>Clear communicator</li>
+                </ul>
+              </div>
+
+              <div class="stats-grid reveal">
+                <div class="stat-card">
+                  <h3>2027</h3>
+                  <p>Expected Graduation</p>
+                </div>
+                <div class="stat-card">
+                  <h3>15 Days</h3>
+                  <p>Internship Experience</p>
+                </div>
+                <div class="stat-card">
+                  <h3>3+</h3>
+                  <p>Core Technologies</p>
+                </div>
+                <div class="stat-card">
+                  <h3>3</h3>
+                  <p>Featured Project</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section alt-section" id="education">
+          <div class="container">
+            <div class="section-heading reveal">
+              <span class="eyebrow">Education</span>
+              <h2>My academic journey</h2>
+            </div>
+            <div class="timeline">
+              <article class="timeline-card reveal">
+                <span class="timeline-badge active">●</span>
+                <div>
+                  <h3>Bachelor of Technology (B.Tech)</h3>
+                  <p class="timeline-meta">Nandha Engineering College, Erode, Tamil Nadu · Expected May 2027</p>
+                  <ul>
+                    <li>Programming, DSA, web development, and AI/ML basics</li>
+                    <li>Active in coding challenges and peer collaborations</li>
+                  </ul>
+                </div>
+              </article>
+
+              <article class="timeline-card reveal">
+                <span class="timeline-badge">●</span>
+                <div>
+                  <h3>Diploma in Computer Science (DCSE)</h3>
+                  <p class="timeline-meta">Nandha Polytechnic College, Erode, Tamil Nadu · Completed</p>
+                  <ul>
+                    <li>Computer fundamentals</li>
+                    <li>Programming languages and database management</li>
+                  </ul>
+                </div>
+              </article>
+
+              <article class="timeline-card reveal">
+                <span class="timeline-badge">●</span>
+                <div>
+                  <h3>Secondary (10th)</h3>
+                  <p class="timeline-meta">Roots Matric Higher Secondary School, Erode, Tamil Nadu · Completed</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="skills">
+          <div class="container">
+            <div class="section-heading reveal">
+              <span class="eyebrow">Skills</span>
+              <h2>Tools I use to build things</h2>
+            </div>
+
+            <div class="skills-grid">
+              <article class="card reveal">
+                <h3>Front-End Development</h3>
+                <div class="skill-item"><span>HTML</span><strong>92%</strong></div>
+                <div class="skill-bar"><span style="width: 92%"></span></div>
+                <div class="skill-item"><span>CSS</span><strong>90%</strong></div>
+                <div class="skill-bar"><span style="width: 90%"></span></div>
+                <div class="skill-item"><span>JavaScript</span><strong>82%</strong></div>
+                <div class="skill-bar"><span style="width: 82%"></span></div>
+              </article>
+
+              <article class="card reveal">
+                <h3>Programming Languages</h3>
+                <div class="skill-item"><span>Java</span><strong>80%</strong></div>
+                <div class="skill-bar"><span style="width: 80%"></span></div>
+                <div class="skill-item"><span>Python (Fundamentals)</span><strong>60%</strong></div>
+                <div class="skill-bar"><span style="width: 60%"></span></div>
+                <div class="skill-item"><span>C (Fundamentals)</span><strong>55%</strong></div>
+                <div class="skill-bar"><span style="width: 55%"></span></div>
+              </article>
+
+              <article class="card reveal">
+                <h3>Soft Skills</h3>
+                <div class="skill-item"><span>Problem Solving</span><strong>88%</strong></div>
+                <div class="skill-bar"><span style="width: 88%"></span></div>
+                <div class="skill-item"><span>Team Collaboration</span><strong>85%</strong></div>
+                <div class="skill-bar"><span style="width: 85%"></span></div>
+                <div class="skill-item"><span>Quick Learner</span><strong>92%</strong></div>
+                <div class="skill-bar"><span style="width: 92%"></span></div>
+              </article>
+            </div>
+
+            <div class="card tools-card reveal">
+              <h3>Developer Tools</h3>
+              <div class="tool-tags">
+                <span>VS Code</span>
+                <span>GitHub</span>
+                <span>Adobe Photoshop</span>
+                <span>Figma</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section alt-section" id="projects">
+          <div class="container">
+            <div class="section-heading reveal">
+              <span class="eyebrow">Projects</span>
+              <h2>Featured work</h2>
+              <p>A selection of work I built while learning and experimenting.</p>
+            </div>
+
+            <div class="projects-grid">
+            <article class="project-card reveal">
+              <div class="project-visual">
+                <img src="D:\kalai\Potfolio\Kalai_Portfolio_HTML\Photshop\Car_Rental_cover.jpg" alt="Car Rental preview" class="project-thumb" />
+                <div class="project-visual-overlay">
+                  <h3>Car Rental Management System</h3>
+                  <p>Booking flow with search filters and reservation storage</p>
+                </div>
+              </div>
+              <div class="project-content">
+                <span class="pill">Featured Project</span>
+                <h3>Car Rental Management System</h3>
+                <p>
+                  A sample rental application with searchable vehicles, date-based bookings, and a database-backed reservation flow.
+                </p>
+                <div class="tool-tags">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JavaScript</span>
+                  <span>MySQL</span>
+                </div>
+                <ul class="check-list compact">
+                  <li>Booking flow with date selection</li>
+                  <li>Real-time vehicle availability</li>
+                  <li>Secure customer login</li>
+                </ul>
+                <a class="button button-secondary" href="https://github.com/kalai-2005" target="_blank" rel="noreferrer">View on GitHub</a>
+              </div>
+            </article>
+            
+            <article class="project-card reveal">
+              <div class="project-visual">
+                <img src="Thumbnail\portfolio.png" alt="Responsive Portfolio preview" class="project-thumb" />
+                <div class="project-visual-overlay">
+                  <h3>Responsive Portfolio</h3>
+                  <p>A modern, accessible, and responsive portfolio built with HTML, CSS and JavaScript.</p>
+                </div>
+              </div>
+              <div class="project-content">
+                <span class="pill">Personal Project</span>
+                <h3>Responsive Portfolio</h3>
+                <p>
+                  This portfolio showcases responsive layouts, accessible components, and a lightweight interactive experience. It adapts across devices and emphasizes performance and clarity.
+                </p>
+                <div class="tool-tags">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JavaScript</span>
+                </div>
+                <ul class="check-list compact">
+                  <li>Mobile-first responsive design</li>
+                  <li>Accessible navigation and forms</li>
+                  <li>Lightweight animations and fast load</li>
+                </ul>
+                <a class="button button-secondary" href="https://github.com/kalai-2005" target="_blank" rel="noreferrer">View Source</a>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-visual">
+                <img src="D:\kalai\Potfolio\Kalai_Portfolio_HTML\Photshop\Car_Rental_cover.jpg" alt="Photoshop thumbnail preview for Car Rental project" class="project-thumb" />
+                <div class="project-visual-overlay">
+                  <h3>Photoshop Thumbnail Design</h3>
+                  <p>Self-created cover thumbnail for the Car Rental project</p>
+                </div>
+              </div>
+              <div class="project-content">
+                <span class="pill">Photoshop Project</span>
+                <h3>Photoshop Thumbnail Design</h3>
+                <p>
+                  A self-made promotional thumbnail design for the Car Rental Management System, created in Adobe Photoshop with a clean and modern visual style.
+                </p>
+                <div class="tool-tags">
+                  <span>Photoshop</span>
+                  <span>Graphic Design</span>
+                  <span>Branding</span>
+                </div>
+                <ul class="check-list compact">
+                  <li>Custom poster-style thumbnail</li>
+                  <li>Professional layout and color styling</li>
+                  <li>Designed for project presentation</li>
+                </ul>
+                <a class="button button-secondary" href="https://github.com/kalai-2005" target="_blank" rel="noreferrer">View on GitHub</a>
+              </div>
+            </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="certificates">
+          <div class="container">
+            <div class="section-heading reveal">
+              <span class="eyebrow">Certificates</span>
+              <h2>Achievements & recognitions</h2>
+            </div>
+            <div class="cert-grid">
+              <article class="card reveal">
+                <h3>Front-End Web Development Internship</h3>
+                <p>Cyfotok Pvt. Ltd. · July 2025</p>
+                <div class="certificate-box">
+                  <img class="certificate-preview" src="Certificates/internship_1.jpeg" alt="Certificate preview" />
+                </div>
+              </article>
+              <article class="card reveal">
+                <h3>NPTEL Certification</h3>
+                <p>NPTEL · Privacy and Security</p>
+                <div class="certificate-box">
+                  <img class="certificate-preview" src="Certificates/PrivacyAndSecurity.png" alt="NPTEL certificate preview" />
+                </div>
+              </article>
+              <article class="card reveal">
+                <h3>NPTEL Certification</h3>
+                <p>NPTEL · CyberSecurity</p>
+                <div class="certificate-box">
+                  <img class="certificate-preview" src="Certificates/CyberSecurity.png" alt="NPTEL certificate preview" />
+                </div>
+              </article>
+              <article class="card reveal">
+                <h3>NPTEL Certification</h3>
+                <p>NPTEL · AI in Human Resources Management</p>
+                <div class="certificate-box">
+                  <img class="certificate-preview" src="Certificates/AIinHuman.png" alt="NPTEL certificate preview" />
+                </div>
+              </article>
+             
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="contact">
+          <div class="container">
+            <div class="section-heading reveal">
+              <span class="eyebrow">Contact</span>
+              <h2>Let’s build something together</h2>
+              <p>Have an opportunity or simply want to say hello? Drop a message.</p>
+            </div>
+
+            <div class="contact-grid">
+              <div class="contact-list reveal">
+                <a href="mailto:kalaibigil005@gmail.com" class="contact-item">
+                  <span>✉️</span>
+                  <div><strong>Email</strong><p>kalaibigil005@gmail.com</p></div>
+                </a>
+                <a href="tel:+916374639858" class="contact-item">
+                  <span>📞</span>
+                  <div><strong>Phone</strong><p>+91 63746 39858</p></div>
+                </a>
+                <a href="https://www.linkedin.com/in/kalai-vanan-b1215a403" target="_blank" rel="noreferrer" class="contact-item">
+                  <span>💼</span>
+                  <div><strong>LinkedIn</strong><p>kalai-vanan</p></div>
+                </a>
+                <a href="https://github.com/kalai-2005" target="_blank" rel="noreferrer" class="contact-item">
+                  <span>💻</span>
+                  <div><strong>GitHub</strong><p>Kalai_2005</p></div>
+                </a>
+                <div class="contact-item">
+                  <span>📍</span>
+                  <div><strong>Location</strong><p>Tiruppur, Tamil Nadu — 638103</p></div>
+                </div>
+              </div>
+
+              <form class="card contact-form reveal" id="contactForm">
+                <div class="form-row">
+                  <label>
+                    <span>Name</span>
+                    <input type="text" name="name" placeholder="Your name" required />
+                  </label>
+                  <label>
+                    <span>Email</span>
+                    <input type="email" name="email" placeholder="you@email.com" required />
+                  </label>
+                </div>
+                <label>
+                  <span>Subject</span>
+                  <input type="text" name="subject" placeholder="Opportunity, question, etc." />
+                </label>
+                <label>
+                  <span>Message</span>
+                  <textarea name="message" rows="5" placeholder="Tell me about your project or opportunity..." required></textarea>
+                </label>
+                <button class="button button-primary" type="submit">Send Message</button>
+                <p class="form-status" id="formStatus" aria-live="polite"></p>
+              </form>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="container footer-content">
+          <div>
+            <h3>Kalaivanan S</h3>
+            <p>B.Tech Information Technology</p>
+          </div>
+          <div class="footer-links">
+            <a href="https://github.com/kalai-2005" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com/in/kalai-vanan-b1215a403" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a href="mailto:kalaibigil005@gmail.com">Email</a>
+          </div>
+          <p>© <span id="year"></span> Kalaivanan S. All rights reserved.</p>
+        </div>
+      </footer>
+    </div>
+
+    <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">↑</button>
+    <script src="D:\kalai\Potfolio\Kalai_Portfolio_HTML\script.js"></script>
+  </body>
+</html>
